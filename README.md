@@ -1,10 +1,14 @@
+[TOC]
+
 # micro-cloud
 基于spring boot和spring cloud的微服务模板应用
+
+在线考试系统为原型
 
 ## 规划选型
 
 * Cloud Service & Tools
-    - [ ] 注册中心 Nacos (https://nacos.io/zh-cn/docs/what-is-nacos.html)
+    - [x] 注册中心 Nacos (https://nacos.io/zh-cn/docs/what-is-nacos.html)
     - [ ] 配置中心 Nacos
     - [ ] 断路器 sentinel (https://github.com/alibaba/Sentinel)
     - [ ] 分布式事务 seata (http://seata.io/zh-cn/)
@@ -16,6 +20,7 @@
 * Application Tools & Frameworks
     - [ ] jdk11
     - [ ] Spring Boot / Spring Boot WebFlux (2.x)
+    - [ ] flyway
     - [ ] JPA / Mybatis
     - [ ] Undertow(docker) / Tomcat(server)
     - [ ] slf4j & log4j 2
@@ -25,6 +30,7 @@
 * Other Middleware
     - [ ] RocketMQ
     - [ ] Redis
+    - [ ] prometheus & grafana
     
 * Frontend
     - [ ] Ant Design & React
