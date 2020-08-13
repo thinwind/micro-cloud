@@ -9,7 +9,7 @@
 
 * Cloud Service & Tools
     - [x] 注册中心 Nacos (https://nacos.io/zh-cn/docs/what-is-nacos.html)
-    - [ ] 配置中心 Nacos
+    - [x] 配置中心 Nacos
     - [ ] 断路器 sentinel (https://github.com/alibaba/Sentinel)
     - [ ] 分布式事务 seata (http://seata.io/zh-cn/)
     - [ ] 网关 spring cloud gateway
