@@ -16,5 +16,6 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#100a32",
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.view": "flat"
 }
