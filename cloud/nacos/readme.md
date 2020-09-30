@@ -11,6 +11,11 @@ grafana https://grafana.com/
 ## 使用说明
 
 启动 `docker-compose -f standalone-derby.yaml up`      
+
+关闭 `docker-compose -f standalone-derby.yaml stop`        
+
 查看Nacos http://127.0.0.1:8848/nacos/      
+
 查看prometheus http://127.0.0.1:9090      
+
 查看grafana http://127.0.0.1:3000      
