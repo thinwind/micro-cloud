@@ -1,0 +1,38 @@
+GET /actuator HTTP/1.1
+Host: 127.0.0.1:8080
+
+###
+GET /actuator/metrics HTTP/1.1
+Host: 127.0.0.1:8080
+
+###
+GET /actuator/caches HTTP/1.1
+Host: 127.0.0.1:8080
+
+###
+GET /actuator/threaddump HTTP/1.1
+Host: 127.0.0.1:8080
+
+###
+GET /actuator/metrics/http.server.requests HTTP/1.1
+Host: 127.0.0.1:8080
+
+###
+GET /actuator/beans HTTP/1.1
+Host: 127.0.0.1:8080
+
+###
+GET /actuator/info HTTP/1.1
+Host: 127.0.01:8080
+
+###
+GET /actuator/health HTTP/1.1
+Host: 127.0.0.1:8080
+
+###
+GET /actuator/configprops HTTP/1.1
+Host: 127.0.0.1:8080
+
+###
+GET /application/info HTTP/1.1
+Host: 127.0.01:8080
